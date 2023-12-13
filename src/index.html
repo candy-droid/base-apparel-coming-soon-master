@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Base Apparel coming soon page</title>
+
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100;9..40,200;9..40,300;9..40,400;9..40,500;9..40,600;9..40,700;9..40,800;9..40,900;9..40,1000&family=Josefin+Sans:wght@300;400;600&family=Mansalva&family=Work+Sans:wght@400;600;700&display=swap');
+  </style>
+
+  <link href="/dist/output.css" rel="stylesheet">
+
+</head>
+
+<body class="bg-desaturated-red/5">
+  <div class=" mx-auto text-gray-900 font-normal max-w-[1320px]">
+    <div class="px-[12px] md:px-[36px] xl:px-0 mt-[70px]">
+      <div class="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-12 shadow-2xl">
+        <div
+          class="col-span-7 bg-[url('/images/bg-pattern-desktop.svg')] bg-no-repeat bg-center grid justify-center items-center">
+          <div class="md:max-w-md ">
+            <div class="max-md:p-10 my-10 lg:mb-[3rem] ">
+              <img src="/images/logo.svg" class="pointer-events-none">
+            </div>
+            <img src="/images/hero-mobile.jpg" class="block lg:hidden w-full pointer-events-none">
+            <div class="max-md:px-5 py-20">
+              <div class=" mb-6">
+
+                <h1 class="text-dark-red text-6xl font-medium tracking-widest max-sm:text-center">
+                  <span class="text-desaturated-red font-thin pb-5">WE'RE</span><br /><span>COMING SOON</span>
+                </h1>
+              </div>
+              <div class="mb-12">
+                <p class="text-desaturated-red tracking-wider max-md:text-center">
+                  Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit laborum —
+                  semper quis lectus nulla.nteractively transform magnetic growth strategies
+                </p>
+              </div>
+              <div>
+                <form onsubmit="return validateForm()"
+                  class="group flex max-w-xl mx-auto h-[3.5rem] drop-shadow-2xl ps-8 w-full rounded-full border-[.2px] placeholder:text-desaturated-red/60 border-desaturated-red/50 focus:outline-none bg-transparent">
+                  <input
+                    class=" w-full rounded-full  placeholder:text-desaturated-red/60 border-desaturated-red focus:outline-none bg-transparent"
+                    placeholder="Enter your email" type="email" id="email" required>
+                  <button
+                    class="btn gradient-2 h-full group-hover:drop-shadow-2xl transition duration-150 rounded-full text-white shadow-sm px-7"
+                    type="submit" value="submit">
+                    <span class="w-10 grid justify-center">
+                      <img src="/images/icon-arrow.svg">
+                    </span>
+                  </button>
+                </form>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="col-span-5 max-lg:hidden">
+          <img src="/images/hero-desktop.jpg" class="h-full object-cover pointer-events-none">
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
